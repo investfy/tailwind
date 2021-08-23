@@ -1,5 +1,4 @@
 name: Tailwind Config Viewer
-description: Publica o site estático gerado pelo Tailwind Config Viewer no GH-Pages.
 
 on:
   push:
