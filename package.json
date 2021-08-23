@@ -1,0 +1,33 @@
+{
+  "name": "@investfy/tailwind",
+  "version": "0.0.0-development",
+  "description": "Configurações para o TailwindCSS",
+  "author": "Investfy <contato@investfy.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/investfy/investfy.git"
+  },
+  "main": "main.js",
+  "files": [
+    "dist/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npm run parse && npm run compress",
+    "parse": "tailwind build -i css/tailwind.css --config main.js -o dist/tailwind.css",
+    "compress": "csso dist/tailwind.css --output dist/tailwind.min.css --source-map file --no-restructure",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "csso-cli": "^3.0.0",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7",
+    "semantic-release": "^17.4.5"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}
