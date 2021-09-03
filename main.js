@@ -68,6 +68,7 @@ module.exports = {
       borderColor: ["hover", "focus", "group-hover"],
       borderStyle: ["hover", "focus", "group-hover"],
       borderWidth: ["hover", "focus", "group-hover"],
+      cursor: ["disabled", "hover"],
       fontWeight: ["hover", "focus", "group-hover"],
       gradientColorStops: ["hover", "focus", "group-hover"],
       textColor: ["hover", "focus", "group-hover"],
