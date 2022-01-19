@@ -1,6 +1,6 @@
 {
   "name": "@investfy/tailwind",
-  "version": "0.0.0-development",
+  "version": "1.2.0",
   "description": "Configurações para o TailwindCSS",
   "author": "Investfy <contato@investfy.com>",
   "repository": {
@@ -8,10 +8,6 @@
     "url": "https://github.com/investfy/tailwind.git"
   },
   "main": "main.js",
-  "files": [
-    "dist/*",
-    "README.md"
-  ],
   "scripts": {
     "build": "npm run parse && npm run compress",
     "parse": "tailwind build -i css/tailwind.css --config main.js -o dist/tailwind.css",
@@ -23,9 +19,9 @@
   "devDependencies": {
     "csso-cli": "^3.0.0",
     "postcss": "^8.3.6",
+    "semantic-release": "^17.4.5",
     "tailwind-config-viewer": "^1.6.2",
-    "tailwindcss": "^2.2.7",
-    "semantic-release": "^17.4.5"
+    "tailwindcss": "^2.2.7"
   },
   "engines": {
     "node": ">=12"

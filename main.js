@@ -53,14 +53,6 @@ module.exports = {
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
       },
-      borderRadius: {
-        none: "0",
-        xs: ".25rem",
-        sm: ".5rem",
-        DEFAULT: "1rem",
-        lg: "2rem",
-        full: "9999px",
-      },
     },
   },
   variants: {
