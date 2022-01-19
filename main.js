@@ -37,7 +37,7 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
-      gray: colors.blueGray,
+      gray: colors.slate,
       red: colors.red,
       yellow: colors.amber,
       green: colors.green,
@@ -52,14 +52,6 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
-      },
-      borderRadius: {
-        none: "0",
-        xs: ".25rem",
-        sm: ".5rem",
-        DEFAULT: "1rem",
-        lg: "2rem",
-        full: "9999px",
       },
     },
   },
